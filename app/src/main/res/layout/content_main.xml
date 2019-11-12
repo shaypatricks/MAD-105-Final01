@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/roll20" tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="2dp" android:id="@+id/imageView"/>
+    <Button
+            android:text="@string/create_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="192dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="154dp" android:layout_marginStart="154dp" android:layout_marginEnd="134dp"
+            android:layout_marginRight="134dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="435dp"/>
+    <Button
+            android:text="@string/edit_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="264dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="363dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="161dp" android:layout_marginStart="161dp" android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp" app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

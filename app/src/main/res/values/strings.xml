@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MAD-105-001 Final</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_sheet">Create Sheet</string>
+    <string name="edit_sheet">Edit Sheet</string>
+    <string name="Description">Background Image for main screen</string>
+</resources>
