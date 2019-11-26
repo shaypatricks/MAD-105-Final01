@@ -10,8 +10,11 @@
         tools:context=".MainActivity">
     <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/roll20" tools:layout_editor_absoluteY="16dp"
-            tools:layout_editor_absoluteX="2dp" android:id="@+id/imageView"/>
+            android:layout_height="wrap_content" app:srcCompat="@drawable/roll20"
+            android:id="@+id/imageView" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="2dp" android:layout_marginStart="2dp" app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/Image_background"/>
     <Button
             android:text="@string/create_sheet"
             android:layout_width="wrap_content"
@@ -20,14 +23,6 @@
             android:layout_marginTop="192dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="154dp" android:layout_marginStart="154dp" android:layout_marginEnd="134dp"
             android:layout_marginRight="134dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="435dp"/>
-    <Button
-            android:text="@string/edit_sheet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/Edit" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="264dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="363dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="161dp" android:layout_marginStart="161dp" android:layout_marginEnd="150dp"
-            android:layout_marginRight="150dp" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="435dp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="1.0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
