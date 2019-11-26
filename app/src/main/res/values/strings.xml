@@ -13,4 +13,13 @@
     <string name="Charisma">Charisma</string>
     <string name="Name">Name</string>
     <string name="Image_background">Background Image For Main Page</string>
+    <string name="Character_Name">Name</string>
+    <string name="Strength_Base">0</string>
+    <string name="Wisdom_Base">0</string>
+    <string name="Charisma_Base">0</string>
+    <string name="Intelligence_Base">0</string>
+    <string name="Dexterity_Base">0</string>
+    <string name="Constitution_Base">0</string>
+    <string name="Character_Name_Hint">Name</string>
+    <string name="Skills_Button">Character Skill</string>
 </resources>

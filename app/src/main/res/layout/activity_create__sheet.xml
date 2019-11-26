@@ -16,7 +16,7 @@
             android:layout_marginLeft="2dp" android:layout_marginStart="2dp" android:layout_marginBottom="34dp"
             app:layout_constraintBottom_toTopOf="@+id/textView4"/>
     <TextView
-            android:text="@string/Charisma"
+            android:text="@string/Character_Name"
             android:layout_width="129dp"
             android:layout_height="33dp"
             android:id="@+id/textView3"
@@ -35,7 +35,7 @@
             android:layout_marginRight="280dp" android:textSize="22sp"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="2dp" android:layout_marginStart="2dp" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText14" android:layout_marginBottom="103dp"
+            app:layout_constraintTop_toBottomOf="@+id/WisdomText" android:layout_marginBottom="103dp"
             app:layout_constraintBottom_toTopOf="@+id/textView3"/>
     <TextView
             android:text="@string/Wisdom"
@@ -53,7 +53,7 @@
             android:id="@+id/textView6"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="280dp"
             android:layout_marginRight="280dp" android:textSize="22sp" android:layout_marginTop="13dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText9" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ConstitutionText" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="2dp" android:layout_marginStart="2dp" android:layout_marginBottom="31dp"
             app:layout_constraintBottom_toTopOf="@+id/textView7"/>
     <TextView
@@ -80,25 +80,25 @@
             android:layout_height="47dp"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText9" android:layout_marginTop="17dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText11" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="72dp" android:layout_marginRight="72dp"/>
+            android:id="@+id/ConstitutionText" android:layout_marginTop="17dp"
+            app:layout_constraintTop_toBottomOf="@+id/DexterityText" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="72dp" android:layout_marginRight="72dp" android:hint="@string/Constitution_Base"/>
     <EditText
             android:layout_width="211dp"
             android:layout_height="47dp"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText11" android:layout_marginTop="17dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText10" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="73dp" android:layout_marginRight="73dp"/>
+            android:id="@+id/DexterityText" android:layout_marginTop="17dp"
+            app:layout_constraintTop_toBottomOf="@+id/StrengthText" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="73dp" android:layout_marginRight="73dp" android:hint="@string/Dexterity_Base"/>
     <EditText
             android:layout_width="211dp"
             android:layout_height="47dp"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText10" android:layout_marginTop="16dp"
+            android:id="@+id/StrengthText" android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/classes_spinner" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="74dp" android:layout_marginRight="74dp"/>
+            android:layout_marginEnd="74dp" android:layout_marginRight="74dp" android:hint="@string/Strength_Base"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,39 +118,39 @@
             android:layout_height="wrap_content"
             android:inputType="numberSigned"
             android:ems="10"
-            android:id="@+id/editText13" android:layout_marginTop="13dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText9" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="67dp" android:layout_marginRight="67dp"/>
+            android:id="@+id/IntelligenceText" android:layout_marginTop="13dp"
+            app:layout_constraintTop_toBottomOf="@+id/ConstitutionText" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="67dp" android:layout_marginRight="67dp" android:hint="@string/Intelligence_Base"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="numberSigned"
             android:ems="10"
-            android:id="@+id/editText14" android:layout_marginTop="19dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText13" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="70dp" android:layout_marginRight="70dp"/>
+            android:id="@+id/WisdomText" android:layout_marginTop="19dp"
+            app:layout_constraintTop_toBottomOf="@+id/IntelligenceText" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="70dp" android:layout_marginRight="70dp" android:hint="@string/Wisdom_Base"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="numberSigned"
             android:ems="10"
-            android:id="@+id/editText15" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText14" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="67dp" android:layout_marginRight="67dp"/>
+            android:id="@+id/CharismaText" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/WisdomText" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="67dp" android:layout_marginRight="67dp" android:hint="@string/Charisma_Base"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:text="@string/Name"
             android:ems="10"
-            android:id="@+id/editText16" android:layout_marginTop="91dp"
-            app:layout_constraintTop_toBottomOf="@+id/editText15" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="67dp" android:layout_marginRight="67dp"/>
+            android:id="@+id/NameText" android:layout_marginTop="91dp"
+            app:layout_constraintTop_toBottomOf="@+id/CharismaText" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="67dp" android:layout_marginRight="67dp"
+            android:hint="@string/Character_Name_Hint"/>
     <Button
-            android:text="Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Character_Skills" android:layout_marginEnd="17dp" android:layout_marginRight="17dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="17dp"/>
+            android:layout_marginBottom="17dp" android:text="@string/Skills_Button"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
