@@ -82,7 +82,8 @@
             android:ems="10"
             android:id="@+id/ConstitutionText" android:layout_marginTop="17dp"
             app:layout_constraintTop_toBottomOf="@+id/DexterityText" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="72dp" android:layout_marginRight="72dp" android:hint="@string/Constitution_Base"/>
+            android:layout_marginEnd="72dp" android:layout_marginRight="72dp" android:hint="@string/Constitution_Base"
+            android:importantForAutofill="no"/>
     <EditText
             android:layout_width="211dp"
             android:layout_height="47dp"
@@ -90,7 +91,8 @@
             android:ems="10"
             android:id="@+id/DexterityText" android:layout_marginTop="17dp"
             app:layout_constraintTop_toBottomOf="@+id/StrengthText" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="73dp" android:layout_marginRight="73dp" android:hint="@string/Dexterity_Base"/>
+            android:layout_marginEnd="73dp" android:layout_marginRight="73dp" android:hint="@string/Dexterity_Base"
+            android:importantForAutofill="no"/>
     <EditText
             android:layout_width="211dp"
             android:layout_height="47dp"
@@ -98,7 +100,8 @@
             android:ems="10"
             android:id="@+id/StrengthText" android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/classes_spinner" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="74dp" android:layout_marginRight="74dp" android:hint="@string/Strength_Base"/>
+            android:layout_marginEnd="74dp" android:layout_marginRight="74dp" android:hint="@string/Strength_Base"
+            android:importantForAutofill="no"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -120,7 +123,8 @@
             android:ems="10"
             android:id="@+id/IntelligenceText" android:layout_marginTop="13dp"
             app:layout_constraintTop_toBottomOf="@+id/ConstitutionText" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="67dp" android:layout_marginRight="67dp" android:hint="@string/Intelligence_Base"/>
+            android:layout_marginEnd="67dp" android:layout_marginRight="67dp" android:hint="@string/Intelligence_Base"
+            android:importantForAutofill="no"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -128,7 +132,8 @@
             android:ems="10"
             android:id="@+id/WisdomText" android:layout_marginTop="19dp"
             app:layout_constraintTop_toBottomOf="@+id/IntelligenceText" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="70dp" android:layout_marginRight="70dp" android:hint="@string/Wisdom_Base"/>
+            android:layout_marginEnd="70dp" android:layout_marginRight="70dp" android:hint="@string/Wisdom_Base"
+            android:importantForAutofill="no"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -136,7 +141,8 @@
             android:ems="10"
             android:id="@+id/CharismaText" android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/WisdomText" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="67dp" android:layout_marginRight="67dp" android:hint="@string/Charisma_Base"/>
+            android:layout_marginEnd="67dp" android:layout_marginRight="67dp" android:hint="@string/Charisma_Base"
+            android:importantForAutofill="no"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -146,7 +152,7 @@
             android:id="@+id/NameText" android:layout_marginTop="91dp"
             app:layout_constraintTop_toBottomOf="@+id/CharismaText" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="67dp" android:layout_marginRight="67dp"
-            android:hint="@string/Character_Name_Hint"/>
+            android:hint="@string/Character_Name_Hint" android:importantForAutofill="no"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
