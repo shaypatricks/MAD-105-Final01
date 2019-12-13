@@ -1,7 +1,9 @@
 package com.example.mad_105_001final
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import kotlin.random.Random
@@ -64,6 +66,13 @@ class Create_Sheet : AppCompatActivity() {
         CON_Button.setOnClickListener {
 
            ConstitutionText.setText( Random.nextInt(1..20).toString())
+        }
+
+        val Next_Button = findViewById(R.id.Next_Button) as Button
+
+        Next_Button.setOnClickListener {
+            val intent = Intent(this, CharacterDisplay::class.java)
+            startActivity(intent)
         }
 
 

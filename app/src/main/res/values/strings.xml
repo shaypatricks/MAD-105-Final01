@@ -23,6 +23,7 @@
     <string name="Character_Name_Hint">Name</string>
     <string name="Skills_Button">Character Skill</string>
     <string name="Next">Next</string>
+    <string name="CharName"/>
     <string-array name="CLasses">
         <item>"Fighter"</item>
         <item>"Rogue"</item>
